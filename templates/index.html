@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HACKWEB</title>
+    <img src="{% static 'img/logo2.png'%}" alt="error 404" width="100" height="100">
+
+
+    <!--
+
+    Template 2105 Input
+
+	http://www.tooplate.com/view/2105-input
+
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/materialize.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/tooplate.css' %}">
+
+    <link rel="shortcut icon" href="{% static 'img/logo1.ico' %}"> <!-- هنا الشعار-->
+
+</head>
+
+
+<style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+    body{
+        font-family: 'El Messiri', sans-serif;
+        color: #00b3b3;
+
+    }
+</style>
+
+<body id="home">
+    <div class="container tm-home-mt tm-home-container"><!--مكان الهاك-->
+        <div class="row">
+            <div class="col-12">
+                <div class="tm-home-left">
+                    <h1 class="tm-site-title">هاك</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="tm-home-left mt-3 font-weight-light">
+                    <p style="font-size:25px;" class="tm-mb-35" dir="rtl" align="right"> اهلا بكم في موقع هاك <br> منورين حبايبي</p>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <ul class="list-group tm-home-list tm-bg-blue999 font-weight-light"> <!-- خلفية المربع-->
+
+                    <li class="d-flex justify-content-between align-items-center" >
+                        <a style="color: #000000;" href="{% url 'regs' %}" class="tm-white-text">١. إنشاء حساب</a>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center">
+                        <a style="color: #000000;" href="login.html" class="tm-white-text">٢.تسجيل الدخول</a>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center">
+
+                        <a style="color: #000000;" href="survey.html" class="tm-white-text">كلام فاضي٢</a>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center">
+                        <a style="color: #000000;" href="signup.html" class="tm-white-text">كلام ٣</a>
+                    </li>
+
+                    <li class="d-flex justify-content-between align-items-center">
+                        <a style="color: #000000;" href="application.html" class="tm-white-text">05. Application</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="row tm-mt-big mb-3">
+        <div class="col-xl-12 text-center font-weight-light">
+            <p class="d-inline-block tm-bg-black white-text py-2 tm-px-5">
+                Copyright &copy; 2018 Company Name - Design:
+                <a rel="nofollow" href="http://tooplate.com" class="tm-footer-link">Tooplate</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
